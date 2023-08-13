@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          dono ka chal rha hai abb
+          ye kaand hoga
         </a>
       </header>
     </div>
