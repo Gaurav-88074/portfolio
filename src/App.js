@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          hn chl rha hai bhai
+          hm abb thik hai
         </a>
       </header>
     </div>
