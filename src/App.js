@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with chat gpt
+          Its working we have to just execute the command in the github repository folder
         </a>
       </header>
     </div>
