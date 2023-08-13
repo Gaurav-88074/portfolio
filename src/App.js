@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with chat gpt
+          dono ka chal rha hai abb
         </a>
       </header>
     </div>
