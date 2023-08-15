@@ -8,6 +8,7 @@
     --max-height : 100px;
     --weight : 100vw;
     --primary-color : #f3f7f3;
+    --border-color : blue;
 }
 .navbar{
     height: var(--height);
@@ -16,7 +17,7 @@
     background-color: var(--primary-color);
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
+    border: 1px solid var(--border-color);
 }
 .navContainer{
     height: 100%;
@@ -24,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border : 1px solid blue;
+    border: 1px solid var(--border-color)
 }
 .menu{
     width  : 70%;
@@ -35,7 +36,7 @@
     height : 100%;
     display: flex;
     flex-direction: row;
-    border : 1px solid blue;
+    border: 1px solid var(--border-color);
     justify-content: end;
     align-items: center;
 }
@@ -52,5 +53,5 @@ li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
+    border: 1px solid var(--border-color);
 }
