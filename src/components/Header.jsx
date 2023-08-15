@@ -1,7 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
+import SectionOne from './Sectionone'
 const Header = () => {
-  return <Navbar/>  
+  return(
+    <>
+    <Navbar/> 
+    <SectionOne/> 
+    </>
+  )
+    
 }
 
 export default Header
