@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
   --height: 4rem;
   --max-height: 100px;
@@ -20,7 +21,14 @@
   background-color: var(--primary-color);
   display: flex;
   flex-direction: row;
+  
   /* border: 1px solid var(--border-color); */
+}
+@media screen and (max-width :1024px){
+  .navbar{
+    position: fixed;
+    bottom: 0;
+  }
 }
 .navContainer {
   height: 100%;
@@ -58,6 +66,7 @@ a{
   font-weight: var(--text-default-font-weight);
   transition: color 0.2s;
   text-decoration: none;
+  font-family: 'Roboto';
   /* border: 1px solid var(--border-color); */
 }
 a:hover {
